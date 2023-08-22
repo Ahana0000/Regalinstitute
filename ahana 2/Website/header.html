@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header of website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>Regal</h2>
+            <ul id="totalmenu">
+                <li>Home</li>
+                <li>Course</li>
+                <li>About</li>
+                <li>Gallery</li>
+            </ul>
+            <i class="fa-solid fa-bars menubar"></i>
+        </nav>
+    </header>
+
+
+    <script>
+        let menubar = document.querySelector('.menubar');
+        let totalmenu = document.getElementById("totalmenu");
+
+        menubar.onclick = () => {
+            totalmenu.classList.toggle('active');
+        }
+
+    </script>
+    
+</body>
+</html>

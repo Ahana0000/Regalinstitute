@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#cardbox .card{
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#cardbox  .cardheader{
+    margin: 30px;
+    text-align: center;
+}
+#cardbox .cardheader .fa-brands{
+    font-size: 70px; 
+
+}
+#cardbox .cardbody{
+    text-align: center;
+    margin: 20px;
+    padding: 0 20px;
+}
+#cardbox .cardbody h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#cardbox .carfooter{
+    margin: 50px;
+    padding: 0 20px;
+}
+#cardbox .cardfooter button{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background: black;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+#cardbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 40px 0 40px;
+}
+.card:nth-child(2){
+    background: palevioletred;
+    color: #fff;
+    border: none;
+}
+#instrabtn{
+  background: #fff !important;  
+  color: #333 !important;
+}

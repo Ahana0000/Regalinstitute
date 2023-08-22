@@ -1,0 +1,71 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( to right,rgb(232, 38, 177),blue);
+}
+#mainbox{
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    background: #fff;
+    height: 400px;
+    padding: 20px;
+}
+span{
+    text-decoration: underline blue;
+    
+    
+}
+#mainbox #labelinput{
+    display: flex;
+    justify-content: space-between;
+}
+#labelinput #box{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-top: 10px;
+}
+#labelinput #box input{
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    margin-top: 5px;
+}
+#mainbox #gender{
+    display: flex;
+    justify-content: space-between;
+}
+#footerbox{
+    margin-top: 15px;
+}
+#footerbox label{
+    font-size: 20px;
+
+}
+#footerbox div{
+    margin-top: 7px;
+}
+#gender div span{
+    text-decoration: none;
+    margin-left: 5px;
+}
+#mainbox button{
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    background: linear-gradient(to right,cyan,blue);
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+
+
+
+
+}

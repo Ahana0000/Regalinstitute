@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+
+    background-color: aqua;
+}
+#mainbox{
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    display: flex;
+    
+}
+#greenbox{
+    background-color: green;
+    padding: 20px;
+    width: 450px;
+    color: #fff;
+
+}
+#greenbox h2{
+    margin-bottom: 10px;
+}
+#greenbox p{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+#greenbox  div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+#greenbox  div i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+#whitebox{
+    padding: 20px;
+}
+#whitebox #box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#whitebox h2{
+    margin-bottom: 10px;
+}
+#labelbox{
+    flex-basis: 48%;
+    margin-bottom: 10px;
+    outline: none;
+}
+label{
+    text-transform: uppercase;
+}
+input{
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px 0;
+}  
+
+#whitebox button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#whitebox button:hover{
+    background-color: rgb(27, 71, 71);
+}

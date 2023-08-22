@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mainbox{
+    background: darkorange;
+    width: 400px;
+    
+
+    
+}
+#mainbox img{
+    background: darkcyan;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+
+    
+}
+#mainbox h2 :{
+    color: blue;
+    font-size: 20px;
+    padding-left: 40px;
+}
+#mainbox p{
+    font-size: 20px;
+    padding-left: 40px;
+
+}
+
+
+

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: red;
+    height: 100px;
+    padding: 0 30px;
+}
+header nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+header nav #left{
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    width:450px;
+} h
+

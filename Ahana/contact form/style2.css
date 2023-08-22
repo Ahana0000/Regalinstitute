@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mainbox{
+    display: flex;
+    width: 700px;
+    background: green;
+
+}
+#greenbox{
+    background: rgb(33, 4, 131);
+    padding: 20px;
+    width: 450px;
+    color: rgb(229, 229, 240);
+    
+}
+#greenbox h2{
+margin-bottom: 5px;
+}
+#greenbox div p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#greenbox div i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+#whitebox{
+    padding: 20px;
+
+}
+#whitebox #box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#whitebox h2{
+    margin-bottom: 10px;
+}
+#labelbox{
+    flex-basis: 48%;
+    margin-bottom: 10px;
+    outline: none;
+}
+label{
+    text-transform: uppercase;
+}
+input{
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+}
+#whitebox button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-top: 10px
+}
+#whitebox button:hover{
+    background-color: brown;
+}
+#idbox{
+    display: flex;
+    justify-content: space-between;
+}
+#idbox div{
+    flex-basis: 48%;
+}

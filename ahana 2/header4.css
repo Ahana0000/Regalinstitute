@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #fff;
+    height: 80px;
+    padding: 0 100px;
+    
+}
+header #logo img{
+    width: 50px;
+    margin-right: 5px;
+}
+header #logo p{
+    font-size: 10px;
+}
+header nav #logo{
+    display: flex;
+    align-items: center;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    margin-right: 150px;
+}
+header nav{
+    /* margin: 0 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav #icon-button button{
+    width: 150px;
+    height: 30px;
+    background: red;
+    border-radius: 30px;
+    border: none;
+    margin-left: 10px;
+    color: #fff;
+}
+header nav #icon-button i{
+    color: #333;
+}
+body{
+    background: blueviolet;
+}

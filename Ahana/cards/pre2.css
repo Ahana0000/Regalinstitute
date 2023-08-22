@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#box{
+    width: 300px;
+    
+}
+#img{
+    border: 1px solid blue;
+    width: 100%;
+    height: 200px;
+}
+img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: top;
+}
+#userbox{
+    background: darkgreen;
+    text-align: center;
+    color: aliceblue;
+    
+    
+}
+#userbox p:first-child{
+    color: red;
+      
+}
+#userbox p:last-child{
+    color: black;
+}
+#userbox h1{
+    color: black;
+}
+#footer{
+
+    display: flex;
+    justify-content: space-around;
+    background: darkmagenta; 
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+#mainbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+   
+
+
+
+
